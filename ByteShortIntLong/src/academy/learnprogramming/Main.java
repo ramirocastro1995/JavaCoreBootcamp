@@ -33,5 +33,11 @@ public class Main {
 
         short bigShortLiteralValue = 32767;
 
+        int myTotal = (myMinIntValue / 2);
+
+        byte myNewByteValue = (byte) (myMinByteTest / 2 );
+
+        short myNewShortValue = (short) (myMinShortTest / 2);
+
     }
 }
