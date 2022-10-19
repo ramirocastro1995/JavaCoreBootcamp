@@ -25,7 +25,7 @@ public class Main {
         lastString = lastString + doubleNumber;
         System.out.println("LastString is equal to" + lastString);
         //Operators
-        int result = 1+2; //1+2=3
+        int result = 1 + 2; //1+2=3
         System.out.println("1+2 =" + result);
         int previousResult = result;
         System.out.println("previousResult = " + previousResult);
@@ -63,7 +63,7 @@ public class Main {
         //condicionales
 
         boolean isAlien = false;
-        if(isAlien == false) {
+        if (isAlien == false) {
             System.out.println("it is not an alien!");
             System.out.println("im afraid");
         }
@@ -73,10 +73,14 @@ public class Main {
             System.out.println("high score!");
         }
         int secondTopScore = 81;
-        if((topScore > secondTopScore) && (topScore < 100)){
+        if ((topScore > secondTopScore) && (topScore < 100)) {
             System.out.println("Greater than second top score and less than 100!");
         }
-        if((topScore > 90) ||(second))
+        if ((topScore > 90) || (secondTopScore <= 90)) {
+            System.out.println("Greater than second top score and less than 100!");
+        }
 
     }
 }
+
+
