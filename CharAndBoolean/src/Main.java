@@ -79,6 +79,27 @@ public class Main {
         if ((topScore > 90) || (secondTopScore <= 90)) {
             System.out.println("Greater than second top score and less than 100!");
         }
+        boolean isCar = false;
+        if (isCar){
+            System.out.println("This is not supposed to happen");
+        }
+
+        boolean wasCar = isCar ? true : false ;
+        isCar = true;
+        if(wasCar){
+            System.out.println();
+        }
+
+        double varChar = 20.00d;
+        double varCharSecond = 80.00d;
+        double sumOfChar = (varChar + varCharSecond) * 100.000d;
+        double sumOfCharSecond = (sumOfChar % 40.00d);
+        boolean sumIsZero = sumOfCharSecond == 0 ? true : false;
+        if(!sumIsZero){
+            System.out.println("a");
+        }
+
+
 
     }
 }
