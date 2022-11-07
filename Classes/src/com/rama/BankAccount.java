@@ -21,10 +21,8 @@ public class BankAccount {
     }
 
     public BankAccount(String customerName, String email, String phoneNumber) {
-        this("9999",100.55,customerName);
-        this.customerName = customerName;
-        this.email = email;
-        this.phoneNumber = phoneNumber;
+        this("9999",100.555,"Ramiro","ramiro@test.co","1233456");
+
     }
 
     public void deposit(double depositAmount){
