@@ -3,6 +3,9 @@ package com.rama;
 public class Main {
     public static void main(String[] args) {
 
-        System.out.println("Hello world!");
+        Outlander outlander = new Outlander(36);
+        outlander.steer(45);
+        outlander.accelerate(30);
+        outlander.accelerate(20);
     }
 }
