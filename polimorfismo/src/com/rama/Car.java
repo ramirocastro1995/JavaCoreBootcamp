@@ -1,2 +1,4 @@
-package com.rama;public class Car {
+package com.rama;
+
+public class Car {
 }
